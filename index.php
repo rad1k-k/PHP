@@ -7,14 +7,21 @@
     <title>PHP</title>
 </head>
 <body>
-    <h1>Front End Developer</h1>
+    
 
     <?php
 
-    echo "Radka lernt PHP"
+    //This is variable
+    $name = "Web Development lesson";
+
+    /*
+    First line
+    Second line
+    */
 
     ?>
 
+    <h1><?php echo $name ?></h1>
 
 
 
@@ -24,6 +31,6 @@
 
 
 
-    <script src=""></script>
+
 </body>
 </html>
