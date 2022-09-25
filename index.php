@@ -9,19 +9,21 @@
 <body>
     
 
-    <?php
+<?php
+    
+    // I write the heading and paragraph
 
-    //This is variable
-    $name = "Web Development lesson";
+    echo "<h1>This is heading</h1>";
 
-    /*
-    First line
-    Second line
-    */
+    echo "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus porro ab magnam consectetur adipisci assumenda, error nihil rerum similique nulla labore reprehenderit sapiente velit excepturi voluptatem mollitia veritatis blanditiis recusandae!
+    </p>";
 
-    ?>
+    
 
-    <h1><?php echo $name ?></h1>
+    
+
+
+?>
 
 
 
