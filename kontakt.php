@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Front page</h1>
+        <h1>Kontakt</h1>
 
     </header>
 
@@ -19,13 +19,12 @@
 
     </main>
 
+
+
     <?php
     include "footer.php";
     ?>
-
-
-
-
+    
 
 
 
