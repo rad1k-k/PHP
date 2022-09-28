@@ -4,34 +4,27 @@
 include "head.php"
 ?>
 <body>
-    <header>
-        <h1>Front page</h1>
+   <?php
 
-    </header>
+   $name = "Radka";
+   $birthYear = 1989;
+   
+   echo $name;
+   echo $birthYear;
 
+   $job = "Web Developer";   //string
+   $salary = 5000;           //number
+   $hight = 180.5;           //float   
 
-    <main>
-        <h2>Heading</h2>
-        <p>Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.Text.</p>
+   //Concatenation (spojení)
+   echo $name . $birthYear;
+   echo $name." ".$birthYear;
 
-    </main>
+   //Saving HTML tags
+   $heading = "<h1>This is heading</h1>";
+   echo $heading;
 
-    <?php
-    include "footer.php";
-    ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
+   ?>
 
 
 
