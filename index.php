@@ -24,6 +24,25 @@ include "head.php"
    $heading = "<h1>This  is heading</h1>";
    echo $heading;
 
+
+   echo 20 + 15; 
+   echo "<br>";
+   echo 20 - 15;
+   echo "<br>";
+   echo 20 * 10;
+   echo "<br>";
+   echo 10 / 3;
+   echo "<br>";
+
+   echo 3 + 5 * 10;
+   echo "<br>";
+   echo (3 + 5) * 10;
+   echo "<br>";
+
+   $nummer1 = 10;
+   $nummer2 = 16;
+   echo $nummer1 * $nummer2;
+
    ?>
 
 
@@ -31,4 +50,4 @@ include "head.php"
 
 
 </body>
-</html>
+</html> 
