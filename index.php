@@ -43,6 +43,27 @@ include "head.php"
    $nummer2 = 16;
    echo $nummer1 * $nummer2;
 
+
+   //Array (Pole) - holds multiple values in one variable
+   $employees = ["David","Anna","Marek","Jana"];
+   $salaries = [20000,30000,15000,30000];
+   $mix = [20,"David","<h1>Heading</h1>"];
+   echo "<br>";
+
+   //1.Way
+   echo $employees[0];
+   echo "<br>";
+   echo $employees[1];
+   echo "<br>";
+   echo $employees[2];
+   echo "<br>";
+   echo $employees[3];
+   echo "<br>";
+
+   //2.Way
+   print_r($employees);
+
+
    ?>
 
 
