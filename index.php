@@ -62,6 +62,32 @@ include "head.php"
 
    //2.Way
    print_r($employees);
+   echo "<br>";
+
+
+   //Běžné pole - jsou indexy, závisí na pořadí
+   $names = ["David","Anna","Markus"];
+   echo $names[0];
+   echo "<br>";
+   echo $names[1];
+   echo "<br>";
+   echo $names[2];
+   echo "<br>";
+
+   //Asociativní pole - nejsou indexy, nezávisí na pořadí
+   $simpsonovi = ["Bart" => "rostak", "Marge" => "modrá", "Homer" => "kobliha"];
+   echo $simpsonovi["Bart"];
+   echo "<br>";
+   echo $simpsonovi["Marge"];
+   echo "<br>";
+   echo $simpsonovi["Homer"];
+   echo "<br>";
+
+   print_r($names);
+   echo "<br>";
+   print_r($simpsonovi);
+   echo "<br>";
+
 
 
    ?>
