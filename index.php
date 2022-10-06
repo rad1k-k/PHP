@@ -90,6 +90,22 @@ include "head.php"
 
 
 
+   $numberA = 5;
+   $numberB = 10;
+   $result = $numberA * $numberB;
+   echo $result;
+   echo "<br>";
+
+   $fee = [10000, 15000, 7500, 20000];
+   $buy = ["1item" => "milk", "2item" => "eggs", "3item" => "bananas",];
+
+   echo $fee[0];
+   echo "<br>";
+   echo $buy["1item"];
+   echo "<br>";
+
+
+
    ?>
 
 
