@@ -21,7 +21,7 @@ include "head.php"
    echo $name." ".$birthYear;
 
    //Saving HTML tags
-   $heading = "<h1>This  is heading</h1>";
+   $heading = "<h1>This is heading</h1>";
    echo $heading;
 
 
