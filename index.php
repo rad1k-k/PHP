@@ -21,7 +21,7 @@ include "head.php"
    echo $name." ".$birthYear;
 
    //Saving HTML tags
-   $heading = "<h1>This  is heading</h1>";
+   $heading = "<h1>This is heading</h1>";
    echo $heading;
 
 
@@ -105,6 +105,32 @@ include "head.php"
    echo "<br>";
 
 
+   //Data types
+   $job = "hacker";  //string
+   $pay = 100000;  //number
+   $hight = 185.5;  //float
+   $adult = true;  //boolean - true, false
+
+   //Conditions (if-else), boolean - true X false
+
+   if(5 <= 0) {
+      echo "Yes, it´s true";
+   } else {
+      echo "No, it´s not true";
+   }
+
+   echo "<br>";
+
+
+   $password = "123a";     //zadal uživatel
+
+   if($password == "123a") {
+      echo "Welcome, you have successfully logged in";
+   } else {
+      echo "You entered the wrong password";
+   }
+
+   echo "<br>";
 
    ?>
 
