@@ -284,6 +284,42 @@ include "head.php"
 
 
 
+   $mujJazyk = "PHP";
+
+   if($mujJazyk === "PHP") {
+      echo "Ucim se ".$mujJazyk;
+   } elseif ($mujJazyk === "JS") {
+      echo "Ucim se ".$mujJazyk;
+   } else {
+      echo "Ucim se jazyk, ale nevim, jak se jmenuje.";
+   }
+
+   echo "<br>";
+
+
+   for($i = 0; $i <= 10; $i++) {
+      echo $i;
+      echo "<br>";
+   }
+
+
+   $jazyk = "PHP";
+   switch($jazyk) {
+      case "PHP":
+         echo "Máme rádi " .$jazyk;
+         break;
+      case "JS":
+         echo "Máme rádi " .$jazyk;
+         break;
+      case "HTML":
+         echo "Máme rádi " .$jazyk;
+         break;
+      default:
+         echo "Nevím, jaký jazyk mám ráda";
+   }
+
+
+
 
 
 
