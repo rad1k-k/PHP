@@ -318,6 +318,40 @@ include "head.php"
          echo "Nevím, jaký jazyk mám ráda";
    }
 
+   echo "<br>";
+
+
+
+   for($i = 0; $i < 5; $i++) {
+      echo "Hello, how are you?";
+      echo "<br>";
+   }
+
+
+   //Funkction - umožňují něco v kodu zopakovat, funkci mohu zavolat kulatými závorkami
+
+   function pozdrav() {
+      echo"Ahoj, Hráči!";
+      echo "<br>";
+   };
+
+   pozdrav();
+
+   funkction score() {
+      echo "Tvoje skore je: " .(20 + 30);
+   }
+
+
+   //Inicializační funkce - má v sobe více funkcí, mohu všechny fce zavolat inicializační fcí najednou
+   
+   function init() {
+      pozdrav();
+      score();
+   }
+   
+   init();
+
+
 
 
 
