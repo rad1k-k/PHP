@@ -132,6 +132,21 @@ include "head.php"
 
    echo "<br>";
 
+
+   //if - elseif - else
+   $work = "developer";
+
+   if($work == "programmer") {
+      echo "What programming languages do you know?";
+   } elseif ($work == "designer") {
+      echo "What design tools do you know?";
+   } elseif ($work == "hacker"){
+      echo "What types of attacks do you know?";
+   } else {
+      echo "Error, I don't know this position!";
+   }
+   
+
    ?>
 
 
