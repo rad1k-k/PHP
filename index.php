@@ -343,13 +343,15 @@ include "head.php"
 
 
    //Inicializační funkce - má v sobe více funkcí, mohu všechny fce zavolat inicializační fcí najednou
-   
+
    function init() {
       pozdrav();
       score();
    }
    
    init();
+
+   
 
 
 
