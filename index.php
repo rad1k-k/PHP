@@ -162,6 +162,32 @@ include "head.php"
       echo "It´s false";
    }
 
+   echo "<br>";
+
+
+   /* Logical operators */
+
+   // And (&&)  a zároveň - true, když obě podmínky jsou true
+   // Or /||) nebo - true, když alespoň jedna podmínka pravdivá
+
+   //Je mi více jak 20 a zároveň méně než 35
+   if(age > 18 && age < 35) {
+      //když jsou obě dvě podmínky pravdivé
+   } else {
+     //když je jedna podmínka nepravdivá
+     //když jsou obě nepravdivé
+   }
+
+   echo "<br>";
+
+   //Jmenuji se Radka nebo jsem starší 30 let
+   if(name == "Radka" || age > 30) {
+      //Když jsou obě pravda
+      //Když je alespoň jedna pravda
+   } else {
+      //Když jsou obě nepravda
+   }
+
    ?>
 
 
