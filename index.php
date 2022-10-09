@@ -246,6 +246,43 @@ include "head.php"
          echo "Pro tuto pozici nemám žádnou otázku";
    }
 
+   //Cyklus WHILE - něco se opakuje, dokud se něco nestane, tak něco dělej
+   
+   $pocitadlo = 0;
+
+   while ($pocitadlo < 10) {
+      echo "Ahoj";
+      echo "<br>";
+      $pocitadlo = $pocitadlo + 1;
+   }
+
+
+   //Cyklus FOR - říkám, kolikrát to má proběhnout a definuju to
+
+   for($i = 0; $i <= 10; $i++) {
+      echo $i;
+      echo "<br>";
+   }
+
+   $i = $i + 1;
+   $i++; //inkrementace
+
+
+   for($j = 10; $j > 0; $j--) {
+      echo $j;
+      echo "<br>";
+   }
+
+
+   //Cyklus FOREACH - používá se pro práci s polem, na procházení polí
+
+   $jmena = ["David", "Jane", "Markus", "Anna"];
+   foreach($jmena as $zamestnanec) {
+      echo $zamestnanec;
+      echo "<br>";
+   }
+
+
 
 
 
