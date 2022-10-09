@@ -224,6 +224,28 @@ include "head.php"
       echo "It´s false";
    }
 
+   echo "<br>";
+
+
+
+   //Switch - každý case musí končit break, na konci default - jako else
+
+   $job = "hackhger";
+
+   switch($job) {
+      case "hacker";
+         echo "Jaké znáte typy útoků?";
+         break;
+      case "programator";
+         echo "Jaké znáte programovací jazyky?";
+         break;
+      case "sekretarka";
+         echo "Jaké funkce v excelu znáte?";
+         break;
+      default:
+         echo "Pro tuto pozici nemám žádnou otázku";
+   }
+
 
 
 
