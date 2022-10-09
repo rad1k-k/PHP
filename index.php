@@ -145,7 +145,22 @@ include "head.php"
    } else {
       echo "Error, I don't know this position!";
    }
-   
+
+   echo "<br>";
+
+   /* Operators */
+
+   // rovná se ==
+   // identická shoda (hlídá datový typ) === 
+   // porovnání <, >, <=, >=, <>
+   // nerovná se !=  <>
+   // nejsou identické datové typy !==
+
+   if(5 === "5") {
+      echo "It´s true";
+   } else {
+      echo "It´s false";
+   }
 
    ?>
 
