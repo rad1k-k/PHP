@@ -187,6 +187,48 @@ include "head.php"
    } else {
       //Když jsou obě nepravda
    }
+   echo "<br>";
+
+
+
+   // And && - a zároveň
+
+   //true = true true
+   //false = true false
+   //false = false true
+   //false = false false
+
+   $ageRadka = 33;
+
+   if($ageRadka > 18 && $ageRadka < 40) {
+      echo "It´s true";
+   } else {
+      echo "It´s false";
+   }
+
+   echo "<br>";
+
+
+   // Or || - nebo
+   //true = true true
+   //true = true false
+   //true = false true
+   //false = false false
+
+   $name = "Radka";
+   $age = 33;
+
+   if($name === "Radka" || $age < 30) {
+      echo "It´s true";
+   } else {
+      echo "It´s false";
+   }
+
+
+
+
+
+
 
    ?>
 
