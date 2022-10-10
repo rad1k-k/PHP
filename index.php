@@ -408,6 +408,22 @@ include "head.php"
    }
 
 
+   //Global X Local scope
+
+
+   $x = "venku";  //global scope
+
+   function zmenaX() {
+      $x = "uvnitr";    //local scope (uvnitr fce, lokalne, nemohu to pouzit venku, mohu to ale prohlasit za globalni a bude fungovat i mimo fci)
+   }
+
+   echo $x;
+   echo "<br>";
+
+   zmenaX();
+   echo $x;
+
+
 
 
 
