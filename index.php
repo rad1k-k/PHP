@@ -337,7 +337,7 @@ include "head.php"
 
    pozdrav();
 
-   funkction score() {
+   function score() {
       echo "Tvoje skore je: " .(20 + 30);
    }
 
@@ -351,7 +351,61 @@ include "head.php"
    
    init();
 
-   
+   echo "<br>";
+
+   //Fce s parametrem - např. chci pokaždé pozdravit někoho jiného
+
+   function gruss($jmeno) {
+      echo "Ahoj, " .$jmeno;
+      echo "<br>";
+   }
+
+   gruss("Radka");
+   gruss("David");
+   gruss("Petr");
+   gruss("Anna");
+   gruss("Jana");
+   gruss("Markus");
+
+
+
+   function calculator($n1, $n2) {
+      $suma = $n1 + $n2;
+      echo $suma;
+      echo "<br>";
+   }
+
+   calculator(10,30);
+   calculator(100,40);
+   calculator(500,80);
+
+   echo "<br>";
+
+
+   function greeting() {
+      echo "Hi, I´m  Radka";
+   }
+
+   greeting();
+
+   echo "<br>";
+
+
+   //Return - pouze to vrátí, předpokládá se, že to uložím do proměnné a s tou dál pracujeme - podmínky atd.
+   // rokNarozeni - parametr (proměnná, kterou dávám do fce)
+   // 2000  argument (už konkrétní číslo)
+  
+   function vek($rokNarozeni) {
+      return 2020 - $rokNarozeni;
+   }
+
+   $vysledek = vek(2000);
+
+   if($vysledek >= 18) {
+      echo "Je dospělý";
+   } else {
+      echo "Není dospělý";
+   }
 
 
 
