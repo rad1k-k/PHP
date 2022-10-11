@@ -424,8 +424,113 @@ include "head.php"
    echo $x;
 
 
+   echo "<br>";
+
+   //Konstanty - konstantu nemohu měnit
+   // define/const
+   // Kontstanta nemá znak dolaru, klasická proměnná ano
+
+   $vek = 34;
+   $vek = 20;
+
+   echo $vek;
+
+   echo "<br>";
+
+   define("rokNarozeni", 1989);
+   echo rokNarozeni;
+
+   echo "<br>";
+
+   const mojeKonstanta = "Radka";
+   echo mojeKontanta;
 
 
+   echo "<br>";
+
+
+   function rozdil() {
+      return 100 - 20;
+   };
+
+   $vysledek1 = rozdil();
+   echo $vysledek1;
+   echo "<br>";
+
+   $vysledek2 = rozdil();
+   echo $vysledek2;
+   echo "<br>";
+
+   $vysledek3 = rozdil();
+   echo $vysledek3;
+   echo "<br>";
+
+   function soucet($cislo1, $cislo2) {
+      echo $cislo1 + $cislo2;
+   };
+
+   soucet(10,20);
+   echo "<br>";
+   soucet(30,80);
+   echo "<br>";
+   soucet(100,5);
+   echo "<br>";
+
+
+   echo pow(2,4);    //2 na 4
+   echo "<br>";
+   echo rand();   //vygenerování náhodného čísla
+   echo "<br>";
+   echo rand(90,100);   //vygenerování náhodného čísla v intervalu
+   echo "<br>";
+   echo sqrt(25);    //druhá odmocnina
+   echo "<br>";
+   echo ceil(4.2);   //zaokrouhlení nahoru
+   echo "<br>";
+   echo floor(4.2);   //zaokrouhlení dolů
+   echo "<br>";
+   echo round(4.2);   //zaokrouhlení klasické matematické
+   echo "<br>";
+   
+
+   $string = "Ahoj";
+   echo strlen($string);
+   echo "<br>";
+   echo strtoupper($string);
+   echo "<br>";
+   echo strtolower($string);
+   echo "<br>";
+
+   $seznam = [200, 100, 900, 632, 111, 52];
+   echo max($seznam);
+   echo "<br>";
+   echo min($seznam);
+   echo "<br>";
+   sort($seznam);
+   print_r ($seznam);   //výpis pole (nejde přes echo)
+
+
+
+   echo rand(10,50);    //výpis náhodného čísla (random)
+   echo "<br>";
+   echo floor(5.8);
+   echo "<br>";
+   echo ceil(5.1);
+   echo "<br>";
+   echo round(5.6);
+   echo "<br>";
+
+
+   $string = "Radka";
+   echo strlen($string);
+   echo "<br>";
+   echo strtoupper($string);
+   echo "<br>";
+
+   $pole = [1, 20, 13];
+   echo max($pole);
+   echo "<br>";
+   print_r ($pole);
 
 
 
