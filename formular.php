@@ -1,5 +1,9 @@
 <?php
 if(isset($_POST["submit"])) {
+    $name = ["David","Marek","Anna","Jana"];
+
+    $minimum = 3;
+    $maximum = 10;
     $username = $_POST["username"];
     $password = $_POST["password"];
 
@@ -7,6 +11,20 @@ if(isset($_POST["submit"])) {
     echo "<br>";
     echo "Tvé heslo je: ".$password; 
     echo "<br>";
+
+    if(strlen($username) <= $minimum) {
+        echo "Uživatelské jmeno musí být delší než 3 znaky";
+    }
+
+    if(strlen($username) >= $maximum) {
+        echo "Uživatelské jméno musí být kratší než 10 znaků";
+    }
+
+    if(in_array($username,$name)) {
+        echo "Jsi uspěšně přihlášen.";
+    } else {
+        echo "Zadané údaje jsou špatně, nemůžeme vás přihlásit.";
+    }
 }
 
 ?>
