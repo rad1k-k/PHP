@@ -13,7 +13,7 @@ if(isset($_POST["submit"])) {
     echo "<br>";
 
     if(strlen($username) <= $minimum) {
-        echo "Uživatelské jmeno musí být delší než 3 znaky";
+        echo "Uživatelské jmeno musí být delší  než 3 znaky";
     }
 
     if(strlen($username) >= $maximum) {
