@@ -17,7 +17,7 @@ if(isset($_POST["submit"])) {
     }
 
     if(strlen($username) >= $maximum) {
-        echo "Uživatelské jméno  musí být kratší než 10 znaků";
+        echo "Uživatelské jméno musí být kratší než 10 znaků";
     }
 
     if(in_array($username,$name)) {
