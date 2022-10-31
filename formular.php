@@ -23,7 +23,7 @@ if(isset($_POST["submit"])) {
     if(in_array($username,$name)) {
         echo "Jsi uspěšně přihlášen.";
     } else {
-        echo "Zadané údaje jsou špatně, nemůžeme vás přihlásit.";
+        echo "Zadané údaje  jsou špatně, nemůžeme vás přihlásit.";
     }
 }
 
